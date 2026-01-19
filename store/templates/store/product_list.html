@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tienda Online</title>
+  </head>
+  <body>
+    <h1>Productos</h1>
+
+    {% if products %}
+    <ul>
+      {% for product in products %}
+      <li>
+        <strong>{{ product.name }}</strong><br />
+        {{ product.description }}<br />
+        {{ product.price }} €
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>No hay productos disponibles.</p>
+    {% endif %}
+  </body>
+</html>

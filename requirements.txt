@@ -1,0 +1,6 @@
+asgiref==3.11.0
+Django==6.0.1
+numpy @ file:///opt/miniconda3/conda-bld/numpy_and_numpy_base_1760547730050/work/dist/numpy-2.3.3-cp313-cp313-macosx_12_0_arm64.whl#sha256=6528ffc6626f2728a7f27575b39b0f24916f7890c34a559b05c4e64921730c8a
+setuptools==80.9.0
+sqlparse==0.5.5
+wheel==0.45.1
